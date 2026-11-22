@@ -1,0 +1,68 @@
+{
+  "_comment": "学生提交记录样例（数据已脱敏/虚构）。lesson_id 必须能在大纲中找到，否则归档时会报错——这是刻意的数据完整性校验。",
+  "submissions": [
+    {
+      "student_id": "2023105110151",
+      "student_name": "WangChunYan",
+      "lesson_id": "M1-L1",
+      "artifact": "assignments/2023105110151/M1-L1-需求说明书v1.pdf",
+      "artifact_type": "report",
+      "submitted_at": "2026-09-15T21:30:00+08:00",
+      "note": "第一周作业：校园闲置物资平台的 AI 需求说明书"
+    },
+    {
+      "student_id": "2023105110151",
+      "student_name": "WangChunYan",
+      "lesson_id": "M2-L2",
+      "artifact": "assignments/2023105110151/M2-L2-RAG评估报告.md",
+      "artifact_type": "report",
+      "submitted_at": "2026-09-29T20:10:00+08:00",
+      "note": "RAG 知识库 10 题评估：命中 8/10，坏例已分析"
+    },
+    {
+      "student_id": "2023105110151",
+      "student_name": "WangChunYan",
+      "lesson_id": "M3-L2",
+      "artifact": "assignments/2023105110151/M3-L2-线上部署链接.md",
+      "artifact_type": "deployment",
+      "submitted_at": "2026-10-13T19:45:00+08:00",
+      "note": "应用已部署公网，附 3 条运行日志"
+    },
+    {
+      "student_id": "2023105110162",
+      "student_name": "示例同学A",
+      "lesson_id": "M1-L1",
+      "artifact": "assignments/2023105110162/M1-L1-需求说明书v1.pdf",
+      "artifact_type": "report",
+      "submitted_at": "2026-09-15T22:05:00+08:00",
+      "note": "选题：实验室设备预约助手"
+    },
+    {
+      "student_id": "2023105110162",
+      "student_name": "示例同学A",
+      "lesson_id": "M1-L2",
+      "artifact": "assignments/2023105110162/M1-L2-画像卡.md",
+      "artifact_type": "report",
+      "submitted_at": "2026-09-22T20:20:00+08:00",
+      "note": "2 个用户画像 + 痛点排序表"
+    },
+    {
+      "student_id": "2023105110173",
+      "student_name": "示例同学B",
+      "lesson_id": "M2-L1",
+      "artifact": "assignments/2023105110173/M2-L1-数据集v1.zip",
+      "artifact_type": "dataset",
+      "submitted_at": "2026-09-26T18:40:00+08:00",
+      "note": "清洗后 1200 条问答数据，附数据说明卡"
+    },
+    {
+      "student_id": "2023105110173",
+      "student_name": "示例同学B",
+      "lesson_id": "M4-L2",
+      "artifact": "assignments/2023105110173/M4-L2-作品集链接.md",
+      "artifact_type": "portfolio",
+      "submitted_at": "2026-10-28T21:00:00+08:00",
+      "note": "作品集终稿 + 3 分钟路演文稿"
+    }
+  ]
+}

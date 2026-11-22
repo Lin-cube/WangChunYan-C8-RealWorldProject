@@ -1,0 +1,299 @@
+{
+  "course_id": "CS-AI201",
+  "title": "AI+X 智能应用开发实战",
+  "description": "以真实问题为起点，走完「问题定义 → 数据/知识库 → 智能体开发 → 交付复盘」的完整链路，8 周产出一个可上线的 AI 应用与个人作品集。",
+  "weeks": 8,
+  "instructor": "王老师",
+  "tags": [
+    "AI",
+    "Agent",
+    "RAG",
+    "项目制"
+  ],
+  "objectives": [
+    "能把一个真实场景模糊需求，转化为可验证的 AI 功能需求",
+    "能独立完成数据准备与 RAG 知识库搭建",
+    "能设计并实现一个可交互的智能体应用并部署上线",
+    "能基于真实用户反馈迭代产品，并把全过程沉淀为作品集"
+  ],
+  "modules": [
+    {
+      "module_id": "M1",
+      "title": "AI+X 问题定义与需求分析",
+      "week_range": "W1-2",
+      "objectives": [
+        "理解 AI 能力边界，学会选择「AI 做得成」的真问题",
+        "掌握用户画像与痛点排序方法"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "M1-L1",
+          "title": "从真实场景到 AI 需求",
+          "summary": "学会把「老师想做个智能批改」这类模糊想法，拆成可验证的 AI 需求。",
+          "topics": [
+            "AI 能力边界与典型失败模式",
+            "需求拆解：场景—用户—任务—验收标准",
+            "可验证需求的写法（输入/输出/成功标准）"
+          ],
+          "readings": [
+            "《AI 需求分析清单》（讲义第 1 章）"
+          ],
+          "exercises": [
+            {
+              "title": "把 3 个模糊需求改写为可验证需求",
+              "ex_type": "discussion",
+              "minutes": 25,
+              "description": ""
+            },
+            {
+              "title": "画出你的项目场景—用户—任务图",
+              "ex_type": "practice",
+              "minutes": 20,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "项目需求说明书 v1",
+              "description": "提交你选题的需求说明书，含 3 个核心痛点与验收标准"
+            }
+          ]
+        },
+        {
+          "lesson_id": "M1-L2",
+          "title": "用户画像与痛点排序",
+          "summary": "用访谈与画像把「我觉得用户需要」变成「用户真的需要」。",
+          "topics": [
+            "用户画像要素与访谈提纲设计",
+            "痛点强度 × 频率 × AI 适配度三维排序",
+            "竞品与替代方案分析"
+          ],
+          "readings": [
+            "《用户访谈 10 问》（讲义第 2 章）"
+          ],
+          "exercises": [
+            {
+              "title": "两两互访并输出画像卡",
+              "ex_type": "discussion",
+              "minutes": 30,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "用户画像与痛点排序表",
+              "description": "提交至少 2 个画像与排序后的痛点清单"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M2",
+      "title": "数据与知识库",
+      "week_range": "W3-4",
+      "objectives": [
+        "能独立完成数据收集、清洗、标注",
+        "能搭建一个可查询的 RAG 知识库并评估效果"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "M2-L1",
+          "title": "数据收集、清洗与标注",
+          "summary": "数据质量决定 AI 应用上限——本节学会低成本拿到可用数据。",
+          "topics": [
+            "数据来源盘点与合规红线",
+            "清洗流水线：去重、纠错、脱敏、格式统一",
+            "标注规范与一致性检查"
+          ],
+          "readings": [
+            "《数据清洗检查表》（讲义第 3 章）"
+          ],
+          "exercises": [
+            {
+              "title": "对 100 条原始数据跑完清洗流水线",
+              "ex_type": "coding",
+              "minutes": 40,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "项目数据集 v1",
+              "description": "提交清洗后的数据集与数据说明卡"
+            }
+          ]
+        },
+        {
+          "lesson_id": "M2-L2",
+          "title": "RAG 知识库搭建",
+          "summary": "从文档到可问答的知识库：切分、向量化、检索、评估。",
+          "topics": [
+            "文档切分策略与 chunk 设计",
+            "向量检索与混合检索（关键词 + 语义）",
+            "RAG 效果评估：命中率、忠实度、坏例分析"
+          ],
+          "readings": [
+            "《RAG 调优手册》（讲义第 4 章）"
+          ],
+          "exercises": [
+            {
+              "title": "用 20 篇文档搭出知识库并回答 10 个测试问题",
+              "ex_type": "coding",
+              "minutes": 45,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "RAG 知识库 Demo 与评估报告",
+              "description": "提交知识库构建脚本与 10 题评估结果"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M3",
+      "title": "智能体与应用开发",
+      "week_range": "W5-6",
+      "objectives": [
+        "掌握 Prompt 工程与 Agent 工作流设计",
+        "能把智能体集成进 Web 应用并部署上线"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "M3-L1",
+          "title": "Prompt 工程与 Agent 设计",
+          "summary": "从「一句话指令」到「可复用的智能体工作流」。",
+          "topics": [
+            "结构化 Prompt：角色、约束、示例、输出格式",
+            "Agent 工作流：感知—规划—行动—反思",
+            "工具调用与失败兜底设计"
+          ],
+          "readings": [
+            "《Agent 设计模式》（讲义第 5 章）"
+          ],
+          "exercises": [
+            {
+              "title": "把你的 Prompt 迭代 3 版并记录差异",
+              "ex_type": "coding",
+              "minutes": 35,
+              "description": ""
+            },
+            {
+              "title": "画出你的 Agent 工作流图",
+              "ex_type": "practice",
+              "minutes": 20,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "Agent 工作流设计文档",
+              "description": "提交工作流图 + 3 版 Prompt 迭代记录"
+            }
+          ]
+        },
+        {
+          "lesson_id": "M3-L2",
+          "title": "应用集成与部署上线",
+          "summary": "让真实用户能打开并使用你的应用——集成、测试、部署一条龙。",
+          "topics": [
+            "前后端集成与 API 设计",
+            "部署方案选型：静态托管 / 云服务 / 容器",
+            "上线检查清单：日志、限流、异常兜底"
+          ],
+          "readings": [
+            "《部署上线检查表》（讲义第 6 章）"
+          ],
+          "exercises": [
+            {
+              "title": "把 Demo 部署到公网并让同桌访问",
+              "ex_type": "coding",
+              "minutes": 45,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "可访问的线上应用链接",
+              "description": "提交部署链接与 3 条运行日志截图"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "M4",
+      "title": "交付、复盘与作品集",
+      "week_range": "W7-8",
+      "objectives": [
+        "能组织真实用户测试并完成一轮有效迭代",
+        "能把项目全过程沉淀为可展示的作品集"
+      ],
+      "lessons": [
+        {
+          "lesson_id": "M4-L1",
+          "title": "真实用户测试与迭代",
+          "summary": "用真实反馈检验产品——不是「我觉得好用」，而是「用户用得成」。",
+          "topics": [
+            "测试任务设计与观察记录",
+            "反馈聚类与迭代优先级",
+            "ΔR 复盘法：预期 vs 实际的差值分析"
+          ],
+          "readings": [
+            "《用户测试脚本模板》（讲义第 7 章）"
+          ],
+          "exercises": [
+            {
+              "title": "完成 2 场真实用户测试并输出问题清单",
+              "ex_type": "discussion",
+              "minutes": 40,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "迭代报告 v2",
+              "description": "提交测试记录、问题清单与迭代后的版本说明"
+            }
+          ]
+        },
+        {
+          "lesson_id": "M4-L2",
+          "title": "作品集锻造与路演",
+          "summary": "把 8 周的过程变成别人看得懂、信得过的作品集。",
+          "topics": [
+            "作品集结构：背景—方法—产出—证据—复盘",
+            "证据链设计：代码、截图、数据、用户反馈",
+            "3 分钟路演叙事与常见问答"
+          ],
+          "readings": [
+            "《作品集评优案例 3 则》（讲义第 8 章）"
+          ],
+          "exercises": [
+            {
+              "title": "按模板搭出作品集初版",
+              "ex_type": "practice",
+              "minutes": 35,
+              "description": ""
+            },
+            {
+              "title": "3 分钟路演彩排与互评",
+              "ex_type": "discussion",
+              "minutes": 25,
+              "description": ""
+            }
+          ],
+          "assignments": [
+            {
+              "title": "个人作品集终稿",
+              "description": "提交作品集链接与 3 分钟路演文稿"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "student_id": "2023105110173",
+  "student_name": "示例同学B",
+  "course_id": "CS-AI201",
+  "submission_count": 2,
+  "items": [
+    {
+      "student_id": "2023105110173",
+      "student_name": "示例同学B",
+      "lesson_id": "M2-L1",
+      "artifact": "assignments/2023105110173/M2-L1-数据集v1.zip",
+      "artifact_type": "dataset",
+      "submitted_at": "2026-09-26T18:40:00+08:00",
+      "note": "清洗后 1200 条问答数据，附数据说明卡"
+    },
+    {
+      "student_id": "2023105110173",
+      "student_name": "示例同学B",
+      "lesson_id": "M4-L2",
+      "artifact": "assignments/2023105110173/M4-L2-作品集链接.md",
+      "artifact_type": "portfolio",
+      "submitted_at": "2026-10-28T21:00:00+08:00",
+      "note": "作品集终稿 + 3 分钟路演文稿"
+    }
+  ]
+}

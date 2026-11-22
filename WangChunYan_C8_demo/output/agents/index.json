@@ -1,0 +1,54 @@
+{
+  "course_id": "CS-AI201",
+  "agent_count": 8,
+  "agents": [
+    {
+      "agent_name": "ilt-m1-l1",
+      "lesson_id": "M1-L1",
+      "title": "从真实场景到 AI 需求",
+      "path": "output/agents/ilt-m1-l1"
+    },
+    {
+      "agent_name": "ilt-m1-l2",
+      "lesson_id": "M1-L2",
+      "title": "用户画像与痛点排序",
+      "path": "output/agents/ilt-m1-l2"
+    },
+    {
+      "agent_name": "ilt-m2-l1",
+      "lesson_id": "M2-L1",
+      "title": "数据收集、清洗与标注",
+      "path": "output/agents/ilt-m2-l1"
+    },
+    {
+      "agent_name": "ilt-m2-l2",
+      "lesson_id": "M2-L2",
+      "title": "RAG 知识库搭建",
+      "path": "output/agents/ilt-m2-l2"
+    },
+    {
+      "agent_name": "ilt-m3-l1",
+      "lesson_id": "M3-L1",
+      "title": "Prompt 工程与 Agent 设计",
+      "path": "output/agents/ilt-m3-l1"
+    },
+    {
+      "agent_name": "ilt-m3-l2",
+      "lesson_id": "M3-L2",
+      "title": "应用集成与部署上线",
+      "path": "output/agents/ilt-m3-l2"
+    },
+    {
+      "agent_name": "ilt-m4-l1",
+      "lesson_id": "M4-L1",
+      "title": "真实用户测试与迭代",
+      "path": "output/agents/ilt-m4-l1"
+    },
+    {
+      "agent_name": "ilt-m4-l2",
+      "lesson_id": "M4-L2",
+      "title": "作品集锻造与路演",
+      "path": "output/agents/ilt-m4-l2"
+    }
+  ]
+}

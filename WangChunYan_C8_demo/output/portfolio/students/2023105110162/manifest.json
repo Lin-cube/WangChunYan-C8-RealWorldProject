@@ -1,0 +1,26 @@
+{
+  "student_id": "2023105110162",
+  "student_name": "示例同学A",
+  "course_id": "CS-AI201",
+  "submission_count": 2,
+  "items": [
+    {
+      "student_id": "2023105110162",
+      "student_name": "示例同学A",
+      "lesson_id": "M1-L1",
+      "artifact": "assignments/2023105110162/M1-L1-需求说明书v1.pdf",
+      "artifact_type": "report",
+      "submitted_at": "2026-09-15T22:05:00+08:00",
+      "note": "选题：实验室设备预约助手"
+    },
+    {
+      "student_id": "2023105110162",
+      "student_name": "示例同学A",
+      "lesson_id": "M1-L2",
+      "artifact": "assignments/2023105110162/M1-L2-画像卡.md",
+      "artifact_type": "report",
+      "submitted_at": "2026-09-22T20:20:00+08:00",
+      "note": "2 个用户画像 + 痛点排序表"
+    }
+  ]
+}

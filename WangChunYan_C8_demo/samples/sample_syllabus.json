@@ -1,0 +1,48 @@
+{
+  "course_id": "CS-DEMO01",
+  "title": "样例课程（JSON 格式大纲）",
+  "description": "演示 JSON 格式的教学大纲输入：与 Markdown 格式共享同一套 Course 数据模型，可互换使用。",
+  "weeks": 2,
+  "instructor": "示例老师",
+  "tags": ["demo", "json"],
+  "objectives": [
+    "演示 JSON 大纲的解析路径",
+    "验证与 Markdown 大纲共用同一数据模型"
+  ],
+  "modules": [
+    {
+      "module_id": "M1",
+      "title": "入门模块",
+      "week_range": "W1",
+      "objectives": ["掌握课程流水线的输入格式"],
+      "lessons": [
+        {
+          "lesson_id": "M1-L1",
+          "title": "大纲格式入门",
+          "summary": "认识 Markdown 与 JSON 两种大纲输入格式。",
+          "topics": ["Markdown 大纲语法", "JSON 大纲结构"],
+          "readings": ["README.md 格式说明"],
+          "exercises": [
+            {"title": "把 JSON 大纲转写为 Markdown", "ex_type": "practice", "minutes": 20, "description": "对照两种格式逐字段转换。"}
+          ],
+          "assignments": [
+            {"title": "自写一份大纲", "description": "任选一门课，用任一格式写一份 2 课时大纲。"}
+          ]
+        },
+        {
+          "lesson_id": "M1-L2",
+          "title": "流水线一键运行",
+          "summary": "运行 python pipeline.py 看五级产物如何生成。",
+          "topics": ["流水线阶段", "产物目录结构"],
+          "readings": ["SETUP.md"],
+          "exercises": [
+            {"title": "跑通端到端流水线", "ex_type": "coding", "minutes": 15, "description": "执行 python pipeline.py 并检查 output/ 目录。"}
+          ],
+          "assignments": [
+            {"title": "产物清单", "description": "列出 output/ 下生成的每个文件及其用途。"}
+          ]
+        }
+      ]
+    }
+  ]
+}

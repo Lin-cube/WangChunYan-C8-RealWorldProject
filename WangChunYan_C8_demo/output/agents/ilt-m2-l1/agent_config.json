@@ -1,0 +1,53 @@
+{
+  "agent_name": "ilt-m2-l1",
+  "lesson_id": "M2-L1",
+  "title": "数据收集、清洗与标注",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "student_question": {
+        "type": "string",
+        "description": "学生的提问或任务描述"
+      },
+      "context": {
+        "type": "string",
+        "description": "已有学习上下文（可选）"
+      }
+    },
+    "required": [
+      "student_question"
+    ]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "string",
+        "description": "针对性讲解"
+      },
+      "practice": {
+        "type": "string",
+        "description": "给出的练习题"
+      },
+      "feedback": {
+        "type": "string",
+        "description": "对照量规的反馈"
+      }
+    }
+  },
+  "kstar_loop": {
+    "K": "课程上下文：数据质量决定 AI 应用上限——本节学会低成本拿到可用数据。；知识点：数据来源盘点与合规红线、清洗流水线：去重、纠错、脱敏、格式统一、标注规范与一致性检查",
+    "S": "学生在本课时学习中提出的实时情境（提问/练习/困惑）",
+    "T": "诊断学习状态 → 讲解知识点 → 布置练习 → 对照量规反馈",
+    "A": "代理按 teaching_flow 逐步执行讲解/演示/练习/反馈",
+    "R": "输出讲解与反馈，更新学生对本课时的掌握度记录"
+  },
+  "workflow": [
+    "导入",
+    "讲解",
+    "演示",
+    "练习",
+    "总结"
+  ],
+  "rubric_ref": "rubric.json"
+}

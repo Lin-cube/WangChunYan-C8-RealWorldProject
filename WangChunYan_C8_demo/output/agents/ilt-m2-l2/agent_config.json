@@ -1,0 +1,53 @@
+{
+  "agent_name": "ilt-m2-l2",
+  "lesson_id": "M2-L2",
+  "title": "RAG 知识库搭建",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "student_question": {
+        "type": "string",
+        "description": "学生的提问或任务描述"
+      },
+      "context": {
+        "type": "string",
+        "description": "已有学习上下文（可选）"
+      }
+    },
+    "required": [
+      "student_question"
+    ]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "explanation": {
+        "type": "string",
+        "description": "针对性讲解"
+      },
+      "practice": {
+        "type": "string",
+        "description": "给出的练习题"
+      },
+      "feedback": {
+        "type": "string",
+        "description": "对照量规的反馈"
+      }
+    }
+  },
+  "kstar_loop": {
+    "K": "课程上下文：从文档到可问答的知识库：切分、向量化、检索、评估。；知识点：文档切分策略与 chunk 设计、向量检索与混合检索（关键词 + 语义）、RAG 效果评估：命中率、忠实度、坏例分析",
+    "S": "学生在本课时学习中提出的实时情境（提问/练习/困惑）",
+    "T": "诊断学习状态 → 讲解知识点 → 布置练习 → 对照量规反馈",
+    "A": "代理按 teaching_flow 逐步执行讲解/演示/练习/反馈",
+    "R": "输出讲解与反馈，更新学生对本课时的掌握度记录"
+  },
+  "workflow": [
+    "导入",
+    "讲解",
+    "演示",
+    "练习",
+    "总结"
+  ],
+  "rubric_ref": "rubric.json"
+}
